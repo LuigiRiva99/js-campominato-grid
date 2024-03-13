@@ -15,17 +15,35 @@ header .container{
 }
 
 /* MAIN */
-main .container{
+.grid_background{
+    background-color: #BAE1FF;
+    padding: 50px;
+}
+
+.grid{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px auto;
+    margin: 0 auto;
     max-width: 900px;
+    background-color: white;
 }
 
 .cell {
     border: 1px solid rgb(0, 0, 0);
     aspect-ratio: 1/1;
     width: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell_dark {
+    background-color: blue;
+    color: white;
+}
+
+.cell:hover{
+    cursor: pointer;
 }
 
 /* FOOTER */
