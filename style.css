@@ -31,10 +31,21 @@ header .container{
 .cell {
     border: 1px solid rgb(0, 0, 0);
     aspect-ratio: 1/1;
-    width: calc(100% / 10);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cell-100 {
+    width: calc(100% / 10);
+}
+
+.cell-81 {
+    width: calc(100% / 9);
+}
+
+.cell-49 {
+    width: calc(100% / 7);
 }
 
 .cell_dark {
